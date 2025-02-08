@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 from dotenv import load_dotenv
 
 from langchain_community.document_loaders import TextLoader
@@ -102,6 +103,4 @@ with gr.Blocks(theme=gr.themes.Ocean()) as dashboard:
                         outputs=output)
 
 if __name__ == "__main__":
-    import os
-
     dashboard.launch(server_port=int(os.environ.get("PORT", 7860)), server_name="0.0.0.0")
