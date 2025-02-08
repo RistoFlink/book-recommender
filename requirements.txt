@@ -209,7 +209,6 @@ terminado==0.18.1
 tf_keras==2.18.0
 tiktoken==0.8.0
 tinycss2==1.4.0
-tokenizers
 tomli==2.2.1
 tomlkit==0.13.2
 torch==2.6.0
