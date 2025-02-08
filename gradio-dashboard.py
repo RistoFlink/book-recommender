@@ -103,4 +103,4 @@ with gr.Blocks(theme=gr.themes.Ocean()) as dashboard:
                         outputs=output)
 
 if __name__ == "__main__":
-    dashboard.launch(server_port=int(os.environ.get("PORT", 7860)), server_name="0.0.0.0")
+    dashboard.launch(server_port=7860, server_name="0.0.0.0")
